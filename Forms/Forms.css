@@ -1,0 +1,86 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+
+body {
+    font-family: 'Tahoma', 'Helvetica', sans-serif;
+    margin: 0;
+    width: 70%;
+}
+
+header {
+    background-color: #384452;
+}
+
+header ul {
+    margin: 0;
+}
+
+header ul li {
+    display: inline-block;
+    padding: 30px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:before {
+    font-family: 'FontAwesome', serif;
+}
+
+li:first-child a::before {
+    content: "\f002";
+    padding: 5px;
+}
+
+li:nth-child(2) a::before {
+    content: "\f02c";
+    padding: 5px;
+}
+
+li:nth-child(3) a::before {
+    content: "\f041";
+    padding: 5px;
+}
+
+li:nth-child(4) a::before {
+    content: "\f007";
+    padding: 5px;
+}
+
+form {
+    background-color: #EEEEEE;
+    width: 100%;
+}
+
+label {
+    display: inline-block;
+    width: 20%;
+    padding: 20px;
+}
+
+span {
+    color: #384452;
+    padding: 25px;
+    font-weight: lighter;
+}
+
+input {
+    padding: 5px;
+    margin-top: 10px;
+}
+
+#button {
+    text-transform: uppercase;
+    color: #EEEEEE;
+    padding-left: 20px;
+    background-color: #384452;
+    padding-right: 20px;
+    border: none;
+}
+#button:hover{
+    background-color:forestgreen;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+}
